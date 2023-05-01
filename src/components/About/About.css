@@ -1,5 +1,24 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 .about {
   height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.about-content {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -7,14 +26,27 @@
   align-items: center;
 }
 
+.about-title {
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-bottom: 50px;
+}
+
 .about-icons {
-  width: 350px;
-  height: 200px;
+  width: 450px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .about-text {
   width: 300px;
-  height: 200px;
+  height: 367.81px;
+}
+
+.about-text-description {
+  margin-top: 40px;
 }
 
 .icon {
@@ -24,9 +56,88 @@
 }
 
 .about-line {
-  margin-left: 50px;
-  margin-right: 50px;
-  height: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 250px;
   border: 1px solid #ff3300;
   box-shadow: 2px 2px 2px 1px #00000036;
+}
+
+.about-skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.skill-name {
+  margin: 0;
+}
+
+/* Animaciones de iconos */
+
+#js:hover {
+  transform: scale(1.2);
+  color: rgb(255, 217, 0);
+}
+
+#js {
+  transition: transform 250ms, color 300ms;
+}
+
+#css:hover {
+  transform: scale(1.2);
+  color: rgb(0, 68, 255);
+}
+
+#css {
+  transition: transform 250ms, color 300ms;
+}
+
+#git:hover {
+  transform: scale(1.2);
+  color: rgb(221, 33, 0);
+}
+
+#git {
+  transition: transform 250ms, color 300ms;
+}
+
+#html:hover {
+  transform: scale(1.2);
+  color: rgb(255, 94, 0);
+}
+
+#html {
+  transition: transform 250ms, color 300ms;
+}
+
+#react:hover {
+  transform: scale(1.2);
+  color: rgb(70, 183, 221);
+}
+
+#react {
+  transition: transform 250ms, color 300ms;
+}
+
+#py:hover {
+  transform: scale(1.2);
+  color: rgb(13, 15, 145);
+}
+
+#py {
+  transition: transform 250ms, color 300ms;
+}
+
+#cplus:hover {
+  transform: scale(1.2);
+  color: rgb(58, 74, 216);
+}
+
+#cplus {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+  transition: transform 250ms, color 300ms;
 }
