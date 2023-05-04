@@ -33,7 +33,10 @@ const About = () => {
 
   return (
     <div className="about">
-      <h1 className="about-title">Sobre mi</h1>
+      <div className="about-title">
+        <p className="title-initial">S</p>
+        <p className="title-rest-black">obre mi</p>
+      </div>
       <div className="about-content">
         <div className="about-text">
           <h2>¿Quién soy?</h2>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import About from "../About/About";
+import Portfolio from "../Portfolio/Portfolio";
 
 const Header = () => {
   return (
@@ -25,6 +26,10 @@ const Header = () => {
       </div>
       <div id="about">
         <About />
+      </div>
+
+      <div>
+        <Portfolio />
       </div>
     </>
   );
