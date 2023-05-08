@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Header.css";
 import About from "../About/About";
 import Portfolio from "../Portfolio/Portfolio";
+import Contact from "../Contact/Contact";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Header = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <>
       <div className="header">
@@ -24,12 +31,16 @@ const Header = () => {
           </svg>
         </a>
       </div>
-      <div id="about">
+      <div data-aos="fade-right" id="about">
         <About />
       </div>
 
-      <div>
+      <div data-aos="fade-down">
         <Portfolio />
+      </div>
+
+      <div data-aos="fade-up">
+        <Contact />
       </div>
     </>
   );

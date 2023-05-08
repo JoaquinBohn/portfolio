@@ -1,0 +1,68 @@
+.contact {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.contact-title {
+  display: flex;
+  flex-direction: row;
+  padding-left: 150px;
+  font-size: 40px;
+}
+
+.contact-text {
+  padding-left: 150px;
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 200px;
+  padding-left: 150px;
+}
+
+.contact-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#gmail:hover {
+  transform: scale(1.2);
+  color: rgb(236, 27, 27);
+}
+
+#gmail {
+  transition: transform 500ms, color 500ms;
+}
+
+#github:hover {
+  transform: scale(1.2);
+  color: black;
+}
+
+#github {
+  transition: transform 500ms, color 500ms;
+}
+
+#linkedin:hover {
+  transform: scale(1.2);
+  color: rgb(27, 76, 236);
+}
+
+#linkedin {
+  transition: transform 500ms, color 500ms;
+}
