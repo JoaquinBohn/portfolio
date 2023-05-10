@@ -148,3 +148,100 @@ html {
   margin-bottom: 10px;
   transition: transform 250ms, color 300ms;
 }
+
+@media (max-width: 480px) {
+  .about-title {
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+    font-size: 30px;
+  }
+
+  .about-icons {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-text {
+    width: 150px;
+    height: 250px;
+  }
+
+  .about-text-description {
+    margin-top: 20px;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .about-line {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 200px;
+  }
+
+  .about-skill {
+    margin-right: 10px;
+  }
+
+  #cplus {
+    width: 40px;
+    height: 40px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media ((min-width: 481px) and (max-width: 768px)) {
+  .about-title {
+    height: 80px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .about-icons {
+    width: 320px;
+    height: 200px;
+  }
+
+  .about-text {
+    width: 250px;
+    height: 250px;
+  }
+
+  .about-text-description {
+    margin-top: 20px;
+  }
+
+  .icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .about-line {
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 200px;
+  }
+
+  .about-skill {
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  #cplus {
+    width: 50px;
+    height: 50px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+}

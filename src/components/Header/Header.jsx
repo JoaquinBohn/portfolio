@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./Header.css";
+import Navbar from "../Navbar/Navbar";
 import About from "../About/About";
 import Portfolio from "../Portfolio/Portfolio";
 import Contact from "../Contact/Contact";
@@ -13,7 +14,8 @@ const Header = () => {
 
   return (
     <>
-      <div className="header">
+      <Navbar />
+      <div className="header" id="header">
         <div className="header-content">
           <div className="header-title">
             <p className="title-initial">J</p>
@@ -35,11 +37,11 @@ const Header = () => {
         <About />
       </div>
 
-      <div data-aos="fade-down">
+      <div data-aos="fade-right" id="portfolio">
         <Portfolio />
       </div>
 
-      <div data-aos="fade-up">
+      <div data-aos="fade-right" id="contact">
         <Contact />
       </div>
     </>

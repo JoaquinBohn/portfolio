@@ -66,3 +66,35 @@ a {
 #linkedin {
   transition: transform 500ms, color 500ms;
 }
+
+@media (max-width: 480px) {
+  .contact-title {
+    padding-left: 50px;
+    font-size: 30px;
+  }
+
+  .contact-text {
+    padding-left: 50px;
+  }
+
+  .contact-icons {
+    height: 200px;
+    padding-left: 0px;
+  }
+}
+
+@media ((min-width: 481px) and (max-width: 768px)) {
+  .contact-title {
+    padding-left: 50px;
+    font-size: 30px;
+  }
+
+  .contact-text {
+    padding-left: 50px;
+  }
+
+  .contact-icons {
+    height: 250px;
+    padding-left: 0px;
+  }
+}
