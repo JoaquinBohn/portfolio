@@ -75,7 +75,44 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="project" id="grutas"></div>
+        <div className="outer">
+          <div className="project" id="hvo"></div>
+          <div className="project-text">
+            <p className="description">Home de servicio de streaming</p>
+            <div className="project-buttons">
+              <ThemeProvider theme={theme}>
+                <a
+                  href="https://github.com/JoaquinBohn/HVO.git"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Button
+                    variant="contained"
+                    color="secondary"
+                    sx={{ width: "100px", height: "40px", fontSize: "12px" }}
+                    endIcon={<SiGithub />}
+                  >
+                    Github Repo
+                  </Button>
+                </a>
+
+                <a
+                  href="https://hvo.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Button
+                    variant="contained"
+                    sx={{ width: "100px", height: "40px", fontSize: "12px" }}
+                    endIcon={<BsFillArrowRightSquareFill />}
+                  >
+                    Visitar sitio
+                  </Button>
+                </a>
+              </ThemeProvider>
+            </div>
+          </div>
+        </div>
         <div className="project">Proyecto 3</div>
       </div>
     </div>
