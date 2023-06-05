@@ -113,7 +113,45 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className="project">Proyecto 3</div>
+
+        <div className="outer">
+          <div className="project" id="weather"></div>
+          <div className="project-text">
+            <p className="description">App de clima</p>
+            <div className="project-buttons">
+              <ThemeProvider theme={theme}>
+                <a
+                  href="https://github.com/JoaquinBohn/piweather.git"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Button
+                    variant="contained"
+                    color="secondary"
+                    sx={{ width: "100px", height: "40px", fontSize: "12px" }}
+                    endIcon={<SiGithub />}
+                  >
+                    Github Repo
+                  </Button>
+                </a>
+
+                <a
+                  href="https://monkeyweather.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Button
+                    variant="contained"
+                    sx={{ width: "100px", height: "40px", fontSize: "12px" }}
+                    endIcon={<BsFillArrowRightSquareFill />}
+                  >
+                    Visitar sitio
+                  </Button>
+                </a>
+              </ThemeProvider>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
