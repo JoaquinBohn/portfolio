@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Mi Portfolio Online
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sitio desplegado: [visitar portfolio](https://portfolio-mauve-theta-34.vercel.app/)
 
-## Available Scripts
+Este es un proyecto de portfolio online desarrollado en react js. La finalidad del mismo es presentar mis conocimientos y habilidades como desarrollador frontend, y los proyectos en los que he trabajado.
+El sitio tiene una estructura muy sencilla y está dividido en cuatro secciones facilmente identificables.
 
-In the project directory, you can run:
+**Tabla de contenidos**
 
-### `npm start`
+[TOCM]
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[TOC]
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## NPM
 
-### `npm test`
+![](https://res.cloudinary.com/drdgu83bp/image/upload/v1678719003/Assets/npm_logo_k9cjrx.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm (Node Package Manager) es, como su propio nombre indica, el gestor de paquetes, módulos o librerías que nos proporciona Nodejs. Se trata de una herramienta que nos facilita el trabajo con librerías permitiéndonos instalar, actualizar y eliminar librerías de forma relativamente sencilla y automatizar la gestión de dependencias.
 
-### `npm run build`
+Para comenzar a trabajar con npm utilizaremos npm cli, el módulo que gestiona la consola de npm y desde la que correremos los comandos que necesitemos. Este módulo viene incorporado con Nodejs, por lo que al instalar Nodejs adquiriremos también NPM.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para comprobar si tenemos instalado Nodejs podemos escribir en nuestra consola el siguiente comando:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+node -v
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para comprobar si ya tenemos npm instalado correremos un comando similar:
 
-### `npm run eject`
+```
+npm -v
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+En caso de que no tengamos instalado npm o Nodejs, procederemos a instalar Node.js para obtener ambos.
+Recomiendo seguir los pasos de instalación indicados en el sitio oficial:
+[Node.js.org](https://nodejs.org/en/download/package-manager/#windows-1)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Correr proyecto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Una vez instalado npm, siga estos sencillos pasos:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Utilizar el comando cd en la consola para ubicarte la nueva carpeta donde ubicaremos el proyecto.
+- Clonar repositorio escribiendo en la consola el siguiente script:
 
-## Learn More
+```
+git clone https://github.com/JoaquinBohn/portfolio.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Escribir el siguiente código para instalar todas las dependencias:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm install
+```
 
-### Code Splitting
+- Finalmente correr el proyecto escribiendo:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+npm start
+```
