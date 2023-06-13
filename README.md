@@ -7,9 +7,7 @@ El sitio tiene una estructura muy sencilla y está dividido en cuatro secciones 
 
 **Tabla de contenidos**
 
-[TOCM]
-
-[TOC]
+\{{TOC}}
 
 ## NPM
 
