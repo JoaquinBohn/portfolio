@@ -5,10 +5,6 @@ Sitio desplegado: [visitar portfolio](https://portfolio-mauve-theta-34.vercel.ap
 Este es un proyecto de portfolio online desarrollado en react js. La finalidad del mismo es presentar mis conocimientos y habilidades como desarrollador frontend, y los proyectos en los que he trabajado.
 El sitio tiene una estructura muy sencilla y está dividido en cuatro secciones facilmente identificables.
 
-**Tabla de contenidos**
-
-[TOCM]
-
 ## NPM
 
 ![](https://res.cloudinary.com/drdgu83bp/image/upload/v1678719003/Assets/npm_logo_k9cjrx.png)
