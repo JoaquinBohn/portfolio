@@ -41,10 +41,11 @@ const About = () => {
         <div className="about-text">
           <h2>¿Quién soy?</h2>
           <p className="about-text-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-            magnam quo delectus neque autem ipsa eveniet nesciunt totam harum,
-            praesentium quam, voluptatem assumenda, ad perferendis soluta magni.
-            Ex, consequatur facere.
+            Mi nombre es Joaquin Bohn Valiere y soy Frontend Developer. Me
+            considero una persona curiosa, responsable y autodidacta, con
+            facilidad de adaptación y capacidad de trabajar en equipo. Estoy
+            interesado en aprender y crecer más como programador en un ambiente
+            profesional.
           </p>
           <a
             href="https://drive.google.com/file/d/1O1CAj0wFsCeVOpUN8Wv0_dGvR1-KAfED/view"
